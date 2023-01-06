@@ -5,7 +5,7 @@ export function App() {
     const [count, setCount] = useState(0)
 
     return (
-        <div className="m-0 m-0 mt-20 max-w-7xl p-2 text-center">
+        <div className="m-0 mt-20 p-2 text-center">
             <div className="flex justify-center">
                 <a href="https://vitejs.dev" target="_blank">
                     <img src="/vite.svg" className="h-32 p-2 transition hover:brightness-125" alt="Vite logo" />
