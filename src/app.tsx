@@ -17,7 +17,7 @@ export function App() {
             <h1 className="my-2 text-2xl">Vite + Preact</h1>
             <div className="p-2">
                 <button
-                    className="my-2 rounded-lg border bg-zinc-900 py-2 px-3 transition hover:bg-zinc-800"
+                    className="my-2 rounded-lg border bg-zinc-900 px-3 py-2 transition hover:bg-zinc-800"
                     onClick={() => setCount((count) => count + 1)}
                 >
                     count is {count}
